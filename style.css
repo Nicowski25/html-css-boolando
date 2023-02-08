@@ -136,6 +136,14 @@ ul {
     font-size: x-large;
 }
 
+.like:hover {
+    color: red
+}
+
+.image1:hover {
+
+}
+
 /* #endregion main */
 
 /* #region footer */
