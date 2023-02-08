@@ -9,10 +9,17 @@
     display: flex;
 }
 
-#navbar {
+/* #region header */
+
+#app-header {
     background-color: darkorange;
-    color: white;
     width: 100%;
+}
+
+#navbar {
+    width: 85%;
+    color: white;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -21,3 +28,37 @@ ul {
     gap: 1rem;
 }
 
+/* #endregion header */
+
+/* #region main */
+
+.debug .container {
+    background-color: green;
+}
+
+.debug .product {
+    height: 400px;
+    background-color: teal;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.product {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+/* #endregion main */
