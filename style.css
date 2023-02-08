@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#navbar {
+    background-color: darkorange;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    gap: 1rem;
+}
+
