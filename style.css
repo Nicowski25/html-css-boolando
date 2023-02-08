@@ -53,14 +53,14 @@ ul {
 
 /* #region main */
 
-.debug .container {
+/* .debug .container {
     background-color: green;
 }
 
 .debug .product {
     height: 400px;
     background-color: teal;
-}
+} */
 
 .container {
     width: 85%;
@@ -74,11 +74,21 @@ ul {
 
 .product {
     width: 25%;
+    font-size: small;
 }
 
 .imageproduct img{
     max-width: 100%;
     max-height: 100%;
+}
+
+.price {
+    color: rgb(255, 0, 0);
+}
+
+.sale {
+    text-decoration: line-through;
+    color: black;
 }
 
 /* #endregion main */
