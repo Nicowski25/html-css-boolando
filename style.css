@@ -43,11 +43,16 @@ ul {
 }
 
 #logo img{
-    max-width: 30%;
-    max-height: 30%;
+    height: 30px;
 }
 
+nav a {
+    color: white;
+}
 
+nav a:hover {
+    font-weight: bold;
+}
 
 /* #endregion header */
 
@@ -140,8 +145,16 @@ ul {
     color: red
 }
 
-.image1:hover {
+.product .image-back {
+    display: none;
+}
 
+.product:hover .image-front {
+    display: none;
+}
+
+.product:hover .image-back {
+    display: inline-block;
 }
 
 /* #endregion main */
